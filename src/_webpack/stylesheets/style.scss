@@ -3,11 +3,11 @@
    ========================================================================== */
 
 // SETTINGS
-@import "settings/settings.config";
+@import "settings/config";
 @import "~inuitcss/settings/settings.core";
 @import "~open-color/open-color";
 @import "settings/colors";
-@import "settings/settings.global";
+@import "settings/global";
 
 
 
@@ -17,7 +17,7 @@
 @import "~inuitcss/tools/tools.font-size";
 @import "~inuitcss/tools/tools.clearfix";
 @import "~inuitcss/tools/tools.hidden";
-@import "tools/tools.calc-dimensions";
+@import "tools/calc-dimensions";
 @import "~sass-mq/mq";
 
 
@@ -72,7 +72,7 @@
 @import "components/masthead";
 @import "components/logo";
 @import "components/echtland-logo";
-@import "components/components.remove-me";
+@import "components/remove-me";
 
 
 
@@ -96,4 +96,4 @@ $inuit-fractions: 2 12;
 @import "~inuitcss/utilities/utilities.spacings";
 @import "~inuitcss/utilities/utilities.print";
 @import "~inuitcss/utilities/utilities.hide";
-@import "utilities/utilities.aligns";
+@import "utilities/aligns";
