@@ -8,7 +8,7 @@
     "build": "npm run build:webpack && npm run build:jekyll",
     "build:jekyll": "bundle exec jekyll build",
     "build:webpack": "NODE_ENV=production webpack -p",
-    "serve:jekyll": "bundle exec jekyll serve --watch --config '_config.yml,_config_dev.yml'",
+    "serve:jekyll": "bundle exec jekyll serve --watch --trace --config '_config.yml,_config_dev.yml'",
     "serve:webpack": "./node_modules/.bin/webpack-dev-server --inline --progress --colors"
   },
   "author": "",
@@ -24,6 +24,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
     "inuitcss": "git://github.com/inuitcss/inuitcss.git#develop",
+    "jquery": "^3.1.1",
     "node-sass": "^4.3.0",
     "postcss-loader": "^1.2.2",
     "sass-loader": "^4.1.1",

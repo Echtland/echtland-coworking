@@ -1,18 +1,31 @@
-.remove-me {
-  &__header, &__body {
-    text-align: center;
-  }
+.c-features {
+	position: relative;
+	background-color: #5C5C5F;
+	color: white;
 
-  &__logo {
-    display: inline-block;
-    background-image: url('~images/jekyll_logo.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    @include calc-dimensions(960px, 489px, $width: 200px);
+	// height: 450px;
 
-    @include mq(tablet) {
-      @include calc-dimensions(960px, 489px, $width: 400px);
-    }
-  }
+	&:after {
+		display: table;
+		content: "";
+		clear: both;
+	}
+
+	&__body {
+		padding: $inuit-global-spacing-unit;
+		width: 50%;
+	}
+
+	&__img {
+		float: right;
+	  width: 100%;
+
+	  @include mq(desktop) {
+	  	float: right;
+	  	width: 50%;
+	  	right: 0;
+	  	top: 0;
+	  	// border-left: 10px solid rgba(#c0d465, 0.3);
+	  }
+	}
 }
