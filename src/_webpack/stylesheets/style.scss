@@ -5,6 +5,8 @@
 // SETTINGS
 @import "settings/settings.config";
 @import "~inuitcss/settings/settings.core";
+@import "~open-color/open-color";
+@import "settings/colors";
 @import "settings/settings.global";
 
 
@@ -69,6 +71,7 @@
 @import "~inuitcss/components/example.components.buttons";
 @import "components/masthead";
 @import "components/logo";
+@import "components/echtland-logo";
 @import "components/components.remove-me";
 
 

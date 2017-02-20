@@ -1,22 +1,7 @@
 .c-masthead {
-	display: block;
-	width: 100%;
-	// background-image: url('../../assets/images/bg1.svg');
-	// height: 684px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 100%;
 }
 
-	.c-masthead__title, .c-masthead__subtilte {
-		line-height: 1;
-		margin: 0;
-		padding: 0;
-		text-transform: uppercase;
-		width: 100%;
-		color: #706F6F;
-		display: inline-block;
-		text-align: left;
-	}
-
-	.c-masthead__subtilte {
-	}
+  .c-masthead__title, .c-masthead__subtilte {
+    display: none;
+  }

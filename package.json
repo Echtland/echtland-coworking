@@ -26,6 +26,7 @@
     "inuitcss": "git://github.com/inuitcss/inuitcss.git#develop",
     "jquery": "^3.1.1",
     "node-sass": "^4.3.0",
+    "open-color": "^1.4.2",
     "postcss-loader": "^1.2.2",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",

@@ -1,15 +1,18 @@
 .c-logo {
-	max-width: 200px;
-	widows: 100%;
-	height: auto;
+  font-weight: bold;
 }
 
-	.c-logo__image {
-		fill-rule: nonzero;
-		fill: #706F6F;
-	}
+  .c-logo__title,
+  .c-logo__subtitle {
+    fill-rule: nonzero;
+    fill: $oc-gray-7; // #706F6F;
+    text-transform: uppercase;
+  }
 
-	.c-logo__text {
-		fill-rule: nonzero;
-		fill: #706F6F;
-	}
+  .c-logo__title {
+    font-size: 146px;
+  }
+
+  .c-logo__subtitle {
+    font-size: 41px;
+  }
